@@ -45,3 +45,8 @@ nav {
 		background-color: #111;
 	}
 }
+
+video {
+	display: block;
+	margin: 0 auto;
+}
