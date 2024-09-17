@@ -1,0 +1,42 @@
+body {
+    background-color:black;
+    color:white;
+    font-family: "Papyrus", serif;
+    margin-left: 30%;
+    margin-right: 30%
+}
+
+.center{
+    text-align:center;
+    color: lightblue;
+    font-size: 4vw;
+}
+
+a:link{
+    color:red;
+}
+a:visited {
+    color:gold;
+}
+
+nav {
+	ul {
+		display: flex;
+		justify-content: center;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	li a {
+		display: block;
+		color: grey;
+		text-align: center;
+		padding: 14px 16px;
+	}
+
+	li a:hover {
+		color: grey;
+		background-color: #111;
+	}
+}
