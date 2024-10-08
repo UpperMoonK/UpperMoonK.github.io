@@ -59,7 +59,7 @@ video {
 }
 
 .mediacenter > div {
-	padding: 20%;
+	padding: 10%;
 }
 
 @media only screen and (max-width: 720px){
