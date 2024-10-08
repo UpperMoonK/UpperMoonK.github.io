@@ -11,10 +11,13 @@ p {
     margin-bottom: 75%;
 }
 
+h1{
+	font-size: 4vw;
+}
+
 .center{
     text-align:center;
     color: lightblue;
-    font-size: 4vw;
 }
 
 a:link{
@@ -51,21 +54,34 @@ video {
 	margin: 0 auto;
 }
 
-@media only screen and (max-width: 900px){
-	.center{
+.mediacenter{
+	display: flex;
+}
+
+.mediacenter > div {
+	padding: 20%;
+}
+
+@media only screen and (max-width: 720px){
+	h1{
 		font-size: 5vw;
-		text-align:left;
 		color: orange;
 	}
 	nav{
-		ul{
+		ul {
 			display: flex;
-			flex-direction:column; 
+			flex-direction: column; 
 		}
 		li a{
 			font-size: 3vw;
 			padding: 4px 16px;
 		}
+	}
+	.mediacenter{
+		flex-direction: column;
+	}
+	.mediacenter > div {
+		padding: 0%;
 	}
 }
 
