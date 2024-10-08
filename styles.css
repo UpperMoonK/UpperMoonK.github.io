@@ -50,3 +50,22 @@ video {
 	display: block;
 	margin: 0 auto;
 }
+
+@media only screen and (max-width: 900px){
+	.center{
+		font-size: 5vw;
+		text-align:left;
+		color: orange;
+	}
+	nav{
+		ul{
+			display: flex;
+			flex-direction:column; 
+		}
+		li a{
+			font-size: 3vw;
+			padding: 4px 16px;
+		}
+	}
+}
+
